@@ -1,21 +1,21 @@
-![React Logo](https://github.com/vercel/vercel/blob/master/packages/frameworks/logos/react.svg)
+![axiosheader](https://user-images.githubusercontent.com/66869833/197788320-db300205-89e4-45f5-a040-99396757687e.jpg)
 
-# React Example
+# Axios With Redux Toolkit
 
-This directory is a brief example of a [React](https://reactjs.org/) app with [Serverless Functions](https://vercel.com/docs/v2/serverless-functions/introduction) that can be deployed with Vercel and zero configuration.
+A working example of using Redux Toolkit with Axios when fetching data in React to get up to date 
+Covid statistics by country from an external API.
 
-## Deploy Your Own
+You'll need your own RapidAPI account and API key, as well as a host URL for the Covid19 Data API (provided here)
 
-Deploy your own React project, along with Serverless Functions, with Vercel.
+```
+X_RAPIDAPI_HOST=covid-19-data.p.rapidapi.com
+X_RAPIDAPI_KEY=*Your RapidAPI key*
+```
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/vercel/vercel/tree/main/examples/create-react-app-functions&template=create-react-app)
+## To get Started
 
-_Live Example: https://create-react-app.now-examples.now.sh/_
+```
+npm install
 
-### How We Created This Example
-
-To get started with React, along with [Serverless Functions](https://vercel.com/docs/v2/serverless-functions/introduction), with Vercel, you can use the [Create-React-App CLI](https://reactjs.org/docs/create-a-new-react-app.html#create-react-app) to initialize the project:
-
-```shell
-$ npx create-react-app my-app
+npm start
 ```
